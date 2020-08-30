@@ -1,0 +1,337 @@
+@page {
+            margin: 0px;
+        }
+        body {
+            margin: 0px;
+        }
+        * {
+            font-family: Verdana, Arial, sans-serif;
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+        h1 {
+          font-size:40px;
+          font-weight: bold;
+          line-height: 35px;
+        }
+        h2 {
+          font-size: 27px;
+          font-weight:500;
+          line-height: 32px;
+          color: #3A3A3C;
+        }
+        .end{
+          page-break-after: always;
+        }
+
+        .sousTitre {
+          font-size:19px;
+          color: #AFAEAF;
+          line-height: 27px;
+          padding-top: 20px;
+        }
+
+        .encart1-3 {
+          background-color: #151515;
+          color: #FFF;
+          width: 100%;
+          height: 33.33%;
+        }
+        /* STYLE PDF1 */
+
+        .pdf1-1 {
+          background-color: #151515;
+          color: #FFF;
+          width: 100%;
+          height: 50%;
+        }
+        .pdf1-1 .logo {
+            padding-top: 12.6875rem;
+            padding-left: 18.75rem;
+        }
+
+        .pdf1-2 p {
+          font-size: 72px;
+          padding-top:9.375rem;
+          padding-left: 9.375rem;
+          padding-bottom: 2rem;
+        }
+        .contenu {
+          padding-left: 110px;
+          padding-right : 110px;
+          padding-top: 70px;
+        }
+
+        /* STYLE PDF2 */
+
+        #pdf2-1>h1 {
+          padding-top: 70px;
+        }
+
+        #pdf2-1>p {
+          padding-top: 30px;
+        }
+
+        .pdf2-2 {
+          padding-left: 110px;
+          padding-top: 70px;
+          padding-right: 110px;
+        }
+
+        #pdf2-2-1>div:nth-child(2) {
+          padding-top: 40px;
+        }
+        #pdf2-2-1 p:nth-child(2){
+          color: #969696;
+          font-size: 15px;
+          line-height: 21px;
+        }
+
+        #pdf2-2-2>table>td>p {
+          color: #969696;
+          font-size: 15px;
+          line-height: 16px;
+        }
+        #pdf2-2-2 {
+          padding-top: 40px;
+        }
+        #pdf2-2-2>table>td>h2 {
+          padding-bottom: 25px;
+        }
+
+        #pdf2-2-3 {
+          padding-top: 200px;
+        }
+
+        #pdf2-2-3>td>h2 {
+          color: #969696;
+        }
+
+        /* STYLE PDF3 */
+
+        #pdf3-2-1 {
+          padding-top: 40px;
+          padding-bottom: 60px;
+        }
+
+        #pdf3-2-1>td>p{
+          color: #969696;
+          line-height: 21px;
+          font-size: 15px;
+        }
+
+        #pdf3-2-2 {
+          padding-top: 90px;
+        }
+
+        #pdf3-2-2>p {
+          font-size: 15px;
+          line-height: 21px;
+        }
+
+        #pdf3-3-1 div {
+          padding: 10px;
+        }
+
+        /* STYLE PDF4 */
+
+        #pdf4-2 {
+          padding-top: 20px;
+        }
+
+        #pdf4-1-2>table>td:first-child {
+          color: #3A3A3C;
+        }
+        #pdf4-1-2 table td p {
+          font-size: 15px;
+          line-height: 21px;
+        }
+
+        #pdf4-1-2>table>td:nth-child(3){
+          color: #AFAEAF;
+          padding-left: 60px;
+        }
+
+        #pdf4-2-1>p:first-child,#pdf4-2-2>p:first-child{
+          color:#3A3A3C;
+          font-size: 15px;
+          line-height: 14px;
+        }
+
+        #pdf4-2-1>p:nth-child(4),#pdf4-2-2>p:nth-child(4){
+          color:#AFAEAF;
+          font-size: 12px;
+        }
+
+        #pdf4-2-1>p:nth-child(5),#pdf4-2-2>p:nth-child(5){
+          color:#3A3A3C;
+          font-size: 12px;
+          line-height: 19px;
+        }
+
+        /* STYLE PDF5 */
+
+       #pdf5-2-1 p {
+         color: #AFAEAF;
+       }
+
+      .titrePosition {
+        padding-top: 110px;
+        padding-left: 110px;
+        padding-right: 110px;
+      }
+
+      .pdf6-2-1-g {
+        color: #969696;
+      }
+
+      .pdf6-2-f table tr td div p {
+        font-size: 15px;
+        line-height: 21px;
+      }
+
+      #pdf6-2-1 {
+        padding-right: 120px;
+      }
+      #pdf6-2-2 {
+        padding-right: 105px;
+      }
+      #pdf6-2-3 {
+        padding-right: 74px;
+      }
+      #pdf6-2-4 {
+        padding-right: 45px;
+      }
+      #pdf6-2-5 {
+        padding-right: 40px;
+        display: inline;
+      }
+      #pdf6-2-6 {
+        padding-right: 100px;
+        display: inline;
+      }
+
+
+      .hrtd {
+        border: 2px solid #F2F1F0;
+      }
+
+
+      /* STYLE PDF7 */
+      #pdf7 {
+        padding-left: 110px;
+        padding-top: 110px;
+      }
+
+
+      #pdf7-2 {
+        padding-left: 110px;
+        padding-top: 70px;
+        padding-right: 110px;
+      }
+
+      #pdf7-3 {
+        padding-left: 110px;
+        padding-top: 30px;
+        padding-right: 110px;
+      }
+
+      #pdf7-3>table>td>p {
+        color:#3A3A3C;
+        font-size: 17px;
+        line-height: 25px;
+      }
+      #pdf7-4 {
+        padding-left: 110px;
+        padding-right: 110px;
+        padding-top: 30px;
+      }
+
+
+      /* STYLE PDF8 */
+      .pdf8{
+        padding-left: 110px;
+        padding-right: 110px;
+        padding-top: 20px;
+      }
+      #pdf8-1-1 {
+          padding-right: 300px;
+      }
+
+      #pdf8-1-1>p:first-child{
+        font-size: 17px;
+        line-height: 21px;
+        color: #3A3A3C;
+      }
+
+     #pdf8-2 td p{
+       color: #969696;
+     }
+
+     /* STYLE PDF9 */
+
+    #pdf9-2-1>p{
+      color: #969696;
+    }
+
+
+    #pdf9-1-2>div:nth-child(3) {
+      padding-top: 10px;
+    }
+
+    #pdf9-3 {
+      max-width: 82%;
+    }
+    #pdf9-3>table>td>p{
+      padding-top: 50px;
+      padding-left: 90px;
+    }
+
+    /* STYLE PDF10 */
+
+
+   .pdf10-2-1-g {
+     color: #969696;
+   }
+
+   .pdf10-2-f table tr td div p {
+     font-size: 15px;
+     line-height: 21px;
+   }
+
+   #pdf10-2-1 {
+     padding-right: 120px;
+   }
+   #pdf10-2-2 {
+     padding-right: 105px;
+   }
+   #pdf10-2-3 {
+     padding-right: 74px;
+   }
+   #pdf10-2-4 {
+     padding-right: 45px;
+   }
+
+
+   /* STYLE PDF11 */
+
+   #pdf11-1-1 {
+     padding-left: 90px;
+   }
+   #pdf11-1-1>h2 {
+     color: #151515;
+     /* font-size: 30px; */
+   }
+
+   #pdf11-2>table>td>p {
+     font-size: 13px;
+     line-height: 19px;
+     color: #151515;
+   }
+   #pdf11-2>td:nth-child(2) {
+     font-size: 10px;
+     line-height: 16px;
+     color: #151515;
+   }
